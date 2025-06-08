@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun Portfolio-My Website</title>
+
+     <!-- fontawesome cdn  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <input type="checkbox" id="darkmode" />
+    <div class="wrapper">
+         <!-- Dark mode toggle icon -->
+         <label for="darkmode" id="darkmodelabel"> <i class="fa-solid fa-circle-half-stroke"></i></label>
+
+        <!-- navbar menu -->
+        <header>
+            <div class="container">
+                <div class="logo flex">
+                    Arjun 
+                </div>
+                <div>Full Stack Developer</div>
+
+                <input type="checkbox" id="hamburgerMenu" />
+                <div class="menu">
+                    <div>
+                        HOME
+                    </div>
+
+                    <div>
+                        SKILLS
+                    </div>
+
+                    <div>
+                        PROJECTS
+                    </div>
+
+                    <div>
+                        ABOUT
+                    </div>
+
+                    <div>
+                        CONTACT
+                    </div>
+                </div>
+                <label for="hamburgerMenu" test="hamburg">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+        </header>
+
+        <!-- hero section -->
+        <section class="hero-section container" id="hero">
+        <div class="grid hero">
+            <div class="left flex">
+                <div>Hi I'm <span>Arjun Gurung</span></div>
+                <div class="tag">Full Stack Developer</div>
+                <p>Welcome to my Full Stack Development portfolio. I am a passionate and versatile 
+                    developer skilled in both front-end and back-end technologies. This portfolio 
+                    showcases my ability to build responsive, user-friendly web applications using
+                    modern frameworks and tools. From designing intuitive user interfaces to
+                    implementing robust server-side logic and database management, each project
+                    reflects my commitment to clean code, performance, and continuous learning.</p>
+                <div>
+                    <a href="./assets/arjun.jpg" download>
+                        <button>
+                            To Download CV <br><br> Click Here <i class="fa-solid fa-download"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="right flex">
+                <img src="./assets/arjun.jpg" height="300px" alt="arjun speaking" />
+            </div>
+        </div>
+        </section>
+
+         <!-- details section -->
+        <section class="details-section container" id="details" >
+        <div class="details" style="width: 100%">
+            <div class="detail_bar">
+                <div class="graduate">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>IT</span>
+                    <span>Graduate</span>
+                </div>
+                <div class="graduate" style="border-left: 5px solid grey; border-right: 5px solid grey">
+                    <i class="fa-solid fa-list-check"></i>
+                    <span>3+ Project</span>
+                    <span>Completed</span>
+                </div>
+                <div class="graduate">
+                    <i class="fa-solid fa-business-time"></i>
+                    <span>1 Year</span>
+                    <span>Experience</span>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- project-section -->
+        <section class="project-section container" id="projects">
+        <h2>My Projects</h2>
+        <div class="grid project-grid">
+        <!-- <div class="project-card">
+        <iframe src="https://manishhh08.github.io/DC-JS/not-to-list/notlist.html" frameborder="0"
+        style="height: 100%; width: 100%"></iframe>
+        </div>
+        <div class="project-card">
+        <iframe src="https://manishhh08.github.io/Contact-list/" frameborder="0"
+        style="height: 100%; width: 100%"></iframe>
+        </div>
+        <div class="project-card">
+        <iframe src="https://manishhh08.github.io/starter/resume.html" frameborder="0"
+        style="height: 100%; width: 100%"></iframe>
+        </div> -->
+        <div class="project-card">
+        <img src="assets/extra.jpg" alt="" style="height: 100%; width: 100%" />
+        </div>
+         <div class="project-card">
+        <img src="assets/extra.jpg" alt="" style="height: 100%; width: 100%" />
+        </div>
+         <div class="project-card">
+        <img src="assets/extra.jpg" alt="" style="height: 100%; width: 100%" />
+        </div>
+         <div class="project-card">
+        <img src="assets/extra.jpg" alt="" style="height: 100%; width: 100%" />
+        </div>
+         <div class="project-card">
+        <img src="assets/extra.jpg" alt="" style="height: 100%; width: 100%" />
+        </div>
+         <div class="project-card">
+        <img src="assets/extra.jpg" alt="" style="height: 100%; width: 100%" />
+        </div>
+        
+        </div>
+        </section>
+
+        <!-- about me section -->
+        <section class="aboutme" id="about">
+        <div class="grid_about">
+        <div class="left_flex">
+        <img src="./assets/arjun.jpg" alt="" />
+        </div>
+        <div class="right_flex">
+        <div class="aboutheader">About Me</div>
+        <div class="aboutdetails">
+        <span><b>Arjun Gurung</b></span> <br />
+        <span>
+            Hi, I'm Arjun Gurung, a passionate and detail-oriented Full Stack Developer
+            with a strong foundation in both front-end and back-end technologies. I specialize 
+            in building dynamic, responsive web applications using modern frameworks like React,
+            Node.js, and Express, along with databases like MongoDB and MySQL. I enjoy solving real-world problems
+            with clean, scalable code and continuously expanding my skillset in the ever-evolving tech landscape.
+            Whether it's creating intuitive user interfaces or developing robust server-side logic, I’m dedicated
+            to delivering high-quality, full-cycle solutions that make a difference.
+        </span>
+        <br />
+        <span><b>NSW Sydney,Australia</b></span>
+        <!-- <span>
+            <div class="interest"><b>Interest</b></div>
+                <div class="interestsports">
+                    <span>Basketball</span>
+                    <span>Console Games</span>
+                    <span>Swimming</span>
+                </div>
+        </span> -->
+        </div>
+        </div>
+        </div>
+        </section>
+
+
+        <!-- contact section -->
+        <section class="contact" id="contact">
+        <div class="contactme">
+        <div class="contacthere">Contact Me</div>
+        <div class="contactlogo">
+        <span><a href="https://www.linkedin.com/in/arjun-gurung-b6649a2a2/" target="_blank"><i
+            class="fa-brands fa-linkedin"></i></a></span>
+        <span><a href="https://github.com/Dragon-Grg" target="_blank"><i class="fa-brands fa-github"></i></a></span>
+        <span><a href="#home"><i class="fa-brands fa-youtube"></i></a></span>
+        <span><a href="#home"><i class="fa-solid fa-mobile"></i></a></span>
+        </div>
+        <div>
+        <h3>OR</h3>
+        </div>
+        <div class="contactinput">
+        <div class="inputarea" style="position: relative">
+        <input type="text" placeholder="abcd@gmail.com" required="" style="
+                color: white;
+                background: transparent;
+                border: 0px;
+                height: 40px;
+                background: black;
+                border-radius: 40px;
+                padding-left: 10px;
+                content: wrap;
+            " />
+        <button style="
+                background: transparent;
+                border: 0px;
+                position: absolute;
+                right: 5px;
+                color: orange;
+                top: 7px;
+                font-size: 1.5rem;
+            ">
+            <i class="fa-solid fa-paper-plane"></i>
+        </button>
+        <label for="input"></label>
+        </div>
+        </div>
+        </div>
+        </section>
+
+
+        <!-- footer section -->
+
+        <footer>@copywrites by Arjun Gurung</footer>
+
+    </div>    
+</body>
+</html>
